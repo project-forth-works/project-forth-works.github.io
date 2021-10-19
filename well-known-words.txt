@@ -1,3 +1,12 @@
 ( Here is a list of well known Forth words and their implementations )
 
-: bounds ( addr1 u -- addr2 addr1 ) over + swap ;
+: BOUNDS ( addr1 u -- addr2 addr1 ) over + swap ;
+: @+     ( addr1 -- addr2 x )       dup cell+  swap @ ;
+: TUCK   ( x1 x2 -- x2 x1  )        swap over ;
+: NIP    ( x1 x2 -- x2 )            swap drop ;
+: -ROT   ( x1 x2 x3 -- x3 x1 x2 )   rot rot ;
+: 2DROP  ( d -- )                   drop drop ;
+: ABORT" ( flag ccc -- )            postpone if  postpone ."  postpone abort  postpone then ; immediate
+: ABS    ( n -- u )                 dup 0< if  negate  then ;
+: +!	   ( n a -- )                 >r  r@ @ +  r> ! ;
+: MS     ( u -- )                   ?dup if  0 do  190 0 do loop  loop  then ;  \ The number 190 is system dependent!
