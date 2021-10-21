@@ -65,4 +65,4 @@ your implementation requires*
 
 --- 
 
-For a simple example idea have a look at [The DUMP utility](https://github.com/embeddingforth/System-Software/dump).
+For a simple example idea have a look at [The DUMP utility](https://github.com/embeddingforth/embeddingForth/tree/main/System-Software/dump).
