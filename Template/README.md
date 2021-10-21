@@ -55,6 +55,10 @@ your implementation requires*
 *Present additional (possibly more sophisticated) implementations, e.g for a specific microcontroller boards, a specific Forth system or in Standard Forth.*
 *Try to state precisely what implementations you present and what requirements they have. No need to be portable here: Embrace the difference*
 
+## Possible issues
+
+*Please describe any problems that can occur related to the idea that you describe.*  
+*What were stumbling stones, what issues are important for others to know?*
 
 ## Background information
 
