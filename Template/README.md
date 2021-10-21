@@ -1,4 +1,4 @@
-# Template for a new ideas called «name»
+# Template for a new idea called «name»
 
 ## «name» idea
 
