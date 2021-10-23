@@ -12,5 +12,9 @@
 : +!     ( n a -- )                 >r  r@ @ +  r> ! ;
 : MS     ( u -- )                   ?dup if  0 do  190 0 do loop  loop  then ;  \ The number 190 is system dependent!
 
-: >C     ( a +n -- ca )             drop  1 chars - ; \ Convert from S" to C" string type
+: >C     ( a +n -- ca )             drop  1 chars - ;    \ Convert from S" to C" string type
 : C"     ( "ccc" -- ca )            postpone s"  postpone >c ; immediate
+: WITHIN ( x a b -- flag )          over - >r  - r> u< ; \ x-a u< b-a ?
+: <>     ( x1 x2 -- flag )          = 0= ;
+: CELLS  ( n1 -- n2 )               0 cell+ * ;
+: CELL-  ( a1 -- a2 )               1 cells - ;
