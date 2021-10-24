@@ -15,6 +15,6 @@
 : WITHIN ( x a b -- flag )          over - >r  - r> u< ; \ x-a u< b-a ?
 : <>     ( x1 x2 -- flag )          = 0= ;
 : CELLS  ( n1 -- n2 )               0 cell+ * ;
-: CELL-  ( a1 -- a2 )               1 cells - ;
+: CELL-  ( a1 -- a2 )               0 cell+ - ;
 : 1+     ( n1 -- n2 )               1 + ;
 : 1-     ( n1 -- n2 )               1 - ;
