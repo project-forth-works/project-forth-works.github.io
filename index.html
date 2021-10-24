@@ -51,32 +51,47 @@ h5 { text-align:center; }
 <p>
 <h2>What this project is all about ...</h2>
 
-Forth thrives largely on open source but our problem lies in the saying <b>'When you have seen one Forth, you have seen one Forth'</b>.
-Here we like to embrace our differences.
+Forth would benefit greatly from an active community sharing sources and solutions. But our problem lies in the saying:  <b>'When you have seen one Forth, you have seen one Forth'</b>.
+With this project we would like to embrace our differences. And start sharing, despite having all the different Forths-dialects.
 <br><br>
-This project is an attempt to spread ideas, algorithms, protocols, applications and hardware drivers. 
-The idea is to start with describing the idea, then the algorithm in pseudo code and an example in <a href="https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md" target="_blank">Minimal Forth with extensions</a>.
-Links to information, a description of pitfalls, etc. 
-We hope that examples in a lot of Forth dialects and CPU variants will be added. 
+The core idea of this project is to use a simple, generic version of Forth to spread ideas, algorithms, protocols, applications and hardware drivers. This generic version of Forth guarantees that it can be understood and used by (almost) everybody in the Forth-community.
+<br>
+In addition other implementations can be added in any dialect/version/standard of Forth, and covering any CPU. Having multiple solutions in different dialects of Forth is really seen as a benefit in this project!
+<br><br>
+Without some structure this project is doomed to fail. That is why a standard structure for each topic is envisioned. The idea is to start with a description of the idea/algorithm, clarify that idea or algorithm in pseudo code and add an example implementation in <a href="https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md" target="_blank">Minimal Forth (with extensions, see below)</a>. Links to more detailed information, a description of any pitfalls encountered, etcetera are also very welcome.
+<br>
+And we're really serious in embracing the differences. The example in the generic Forth is always the starting point, but examples in any Forth dialect and for any other CPU can be added to the original idea. The more, the better. And different solutions for the same problem are also very welcome.
+ 
+<br><br>
+The project can also be a place to ask for help when you are stuck or stranded somewhere. Say you have trouble interfacing to a certain periferal. The project could already contain a solution. Or help you find somebody who has a solution. Or help you find somebody with whom you could partner up to try to find a solution together.
 
-<br><br>It can also be the place to ask for help with a stranded project. To do that, you must upload the project and describe it in the appropriate category. How to do that is explained below.
+<br><br><br>
+If you want to participate, the two main things you can do are:
+<br><br>
+<b>1) add something,</b> like a different implementation, to an already existing topic. This can be an alternative way of solving the problem. Or it can be a more specific implementation in a different dialect, or a solution for a different CPU.
+<br><br>
+A short description of the difference of a new implementation plus the source are all that is need. But you can add interesting facts if you like to do so. For instance benchmarks or maybe there are known limitations to your solution, maybe you know who invented your algorithm. Etcetra, etcetra. Lets learn and have fun!
+<br><br>
+<b>2) You can initiate a new topic.</b> Upload any project or algorithm worth sharing in the appropriate category, and describe it as detailed as is useful. How to do that is explained below.
 
-<h3>How to describe an idea?</h3>
+<br><br>
+<h3>How to describe an new topic?</h3>
 
      1) Describe the problem that is solved
-<br> 2) Give some possible usage examples
-<br> 3) A detailed description of the algorithm
+<br> 2) Give some possible usage examples (if not self evident)
+<br> 3) Give a detailed description of the algorithm solving he problem
 <br> 4) Then a more logical decription in pseudo code
-<br> 5) Minimal Forth (with extensions) code example
-<br> 6) Background documention, pitfalls, etc.
-<br> 7) Finally an implementation file in your preferred Forth dialect/CPU
-<br> 8) When it is unfinished also describe as much of the problem you encountered
-<br> 9) <a href="https://github.com/embeddingforth/embeddingForth.github.io/tree/main/Template" target="_blank">Go to the template page, to see how it should be done in practice</a>
+<br> 5) Add a minimal Forth (with extensions) code example, with the focus on clarity rather than efficiency or aesthetics.
+<br> 6) Add any background documention and decribe encountered pitfalls etc.
+<br> 7) And if you want to, add an implementation (or more than one) in your preferred Forth dialect/CPU
+<br> 8) When it is an unfinished project, also describe as much as is possible of the problem you encountered.
+<br><br>
+To make it more concrete,  <a href="https://github.com/embeddingforth/embeddingForth.github.io/tree/main/Template" target="_blank">on the template page</a> there is a detailed example of how we believe a topic should/could be worked out and published.
 
 <br><br>
-<b>Go and visit the <a href="https://github.com/embeddingforth/embeddingForth" target="_blank">EmbeddingForth project</a> at Github</b>.
+<b>Go and <a href="https://github.com/embeddingforth/embeddingForth" target="_blank">visit the EmbeddingForth project</a> at Github</b>.
 
-<br><br>Here implemention examples of a selection of <a href="https://embeddingForth.github.io/well-known-words.txt" target="_blank">common used Forth words</a>, that we did not (yet) selected for the Minimal Forth extensions word set.
+<br><br>Here <a href="https://embeddingForth.github.io/well-known-words.txt" target="_blank">implemention examples</a> of a selection of common used Forth words, that we did not (yet) selected for the Minimal Forth extensions word set.
 
 </p>
 </section>
