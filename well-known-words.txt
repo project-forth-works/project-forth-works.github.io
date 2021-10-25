@@ -1,4 +1,4 @@
-( Here is a list of well known Forth words and their implementations )
+( Here is a list of well known Forth words and their implementations in "Simple Forth" )
 
 : BOUNDS ( addr1 u -- addr2 addr1 ) over + swap ;
 : @+     ( addr1 -- addr2 x )       dup cell+  swap @ ;
@@ -14,7 +14,14 @@
 
 : WITHIN ( x a b -- flag )          over - >r  - r> u< ; \ x-a u< b-a ?
 : <>     ( x1 x2 -- flag )          = 0= ;
+: <      ( x1 x2 -- flag )          swap  > ;
+: U>     ( u1 u2 -- flag )          swap  u< ;
 : CELLS  ( n1 -- n2 )               0 cell+ * ;
 : CELL-  ( a1 -- a2 )               0 cell+ - ;
 : 1+     ( n1 -- n2 )               1 + ;
 : 1-     ( n1 -- n2 )               1 - ;
+
+: MIN    ( n1 n2 -- n3 )            2dup > if  nip exit  then  drop ;  
+: MAX    ( n1 n2 -- n3 )            2dup > if  drop exit then  nip ;
+: UMIN   ( n1 n2 -- n3 )            2dup u< if  drop exit then  nip ;  
+: UMAX   ( n1 n2 -- n3 )            2dup u< if  nip exit then  drop ;
