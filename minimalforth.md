@@ -12,7 +12,7 @@ CELLS ALIGN @ , !
 
 ## Minimal Forth extensions (Bitter/Hoffmann/Hoekstra/Ouwerkerk)
 
-As we are working on this *Embedding Forth* project, we became aware that minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension. Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this first expansion word set of 40 words! With another 14 words in the waiting room :)
+As we are working on this *Embedding Forth* project, we became aware that minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension. Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this first expansion word set of 42 words! With another 14 words in the waiting room :)
 
 String:
 ```
@@ -25,7 +25,7 @@ Stack:
 ```
 Number to string conversion:
 ```
-    <#  #  #S  #>  HOLD  SIGN  .R  U.R  .  BASE  HEX  DECIMAL
+    <#  #  #S  #>  HOLD  SIGN  .R  U.R  .  U.  BASE  HEX  DECIMAL
 ```
 Compiling:
 ``` 
@@ -45,6 +45,6 @@ Arithmetic:
 ```
 Miscellaneous:
 ```
-    LEAVE  VALUE  TO  S>D  EXIT  *MS*  *WITHIN*
+    LEAVE  VALUE  TO  S>D  EXIT  U<  *MS*  *WITHIN*
 ```
 
