@@ -10,7 +10,7 @@ CELLS ALIGN @ , !
 48 primitives, 69 words
 ```
 
-## Minimal Forth extensions (Bitter/Hoffmann/Hoekstra/Ouwerkerk)
+## Simple Forth (Bitter/Hoffmann/Hoekstra/Ouwerkerk)
 
 As we are working on this *EmbeddingForth* project, we became aware that minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension, we call this baby **Simple Forth**.  
 Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this **Simple Forth** word set of 42 words! With another 15 words in the waiting room :)
