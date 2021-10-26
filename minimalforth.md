@@ -1,4 +1,4 @@
-# minimal Forth & extensions
+# minimal Forth & Simple Forth
 
 ## Minimal Forth [(Bennett/Knaggs)](http://www.euroforth.org/ef15/papers/knaggs.pdf) has the following words:
 
