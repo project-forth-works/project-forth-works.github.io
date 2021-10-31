@@ -6,6 +6,7 @@
 : NIP    ( x1 x2 -- x2 )            swap drop ;
 : -ROT   ( x1 x2 x3 -- x3 x1 x2 )   rot rot ;
 : 2DROP  ( d -- )                   drop drop ;
+: ?DUP   ( x1 -- x1 x1 )            dup if  dup  then ;
 : ABORT  ( flag -- )                0= 0= throw ;
 : ABORT" ( flag ccc -- )            postpone if  postpone ."  postpone abort  postpone then ; immediate
 : ABS    ( n -- u )                 dup 0< if  negate  then ;
@@ -21,7 +22,7 @@
 : 1+     ( n1 -- n2 )               1 + ;
 : 1-     ( n1 -- n2 )               1 - ;
 
-: MIN    ( n1 n2 -- n3 )            2dup > if  nip exit  then  drop ;  
-: MAX    ( n1 n2 -- n3 )            2dup > if  drop exit then  nip ;
+: MIN    ( n1 n2 -- n3 )            2dup >  if  nip exit  then  drop ;  
+: MAX    ( n1 n2 -- n3 )            2dup >  if  drop exit then  nip ;
 : UMIN   ( n1 n2 -- n3 )            2dup u< if  drop exit then  nip ;  
-: UMAX   ( n1 n2 -- n3 )            2dup u< if  nip exit then  drop ;
+: UMAX   ( n1 n2 -- n3 )            2dup u< if  nip exit  then  drop ;
