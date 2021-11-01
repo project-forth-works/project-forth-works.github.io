@@ -1,4 +1,4 @@
-( Here is a list of well known Forth words and their implementations in "Simple Forth" )
+( Here is a list of well known Forth words and their implementations in "JustForth" )
 
 : BOUNDS ( addr1 u -- addr2 addr1 ) over + swap ;
 : @+     ( addr1 -- addr2 x )       dup cell+  swap @ ;
