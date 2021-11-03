@@ -42,9 +42,9 @@ Function
 		Leave start address of this 
 ```
 
-## Minimal Forth implementation:
+## Generic Forth implementation:
 
-*Try to implement the pseudo code using the words in [Minimal Forth](http://www.euroforth.org/ef15/papers/knaggs.pdf) mentioning and explaining all additional words that
+*Try to implement the pseudo code using the words in [Generic Forth](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md) mentioning and explaining all additional words that
 your implementation requires*
 
 *Also show how your implementation is used by giving some examples.*
