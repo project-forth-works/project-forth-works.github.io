@@ -13,26 +13,51 @@ CELLS ALIGN @ , !
 ## Generic Forth (Bitter/Hoffmann/Hoekstra/Ouwerkerk)
 
 As we are working on this *EmbeddingForth* project, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension, we call this baby **Generic Forth**, as it is a Forth that most Forthers can easily understand.
-Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this **Generic Forth** word set of 42 words! With another 18 words in the waiting room :)
+Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this **Generic Forth** word set of 42 words! With another 18 words in the waiting room :)  
 
-String:
+Now an overview of all the words from **Minimal Forth** & the word we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended.  
+
+String (Device):
+```
+    KEY  EMIT  KEY?  CR
+```
 ```
     BL  SPACE  SPACES  S"  ."  CHAR  [CHAR]
     CMOVE  *CMOVE>*  *MOVE*
 ```
 Stack:
 ```
+    DUP  DROP  SWAP  OVER  ROT  >R  R>  R@  
+```
+```
     2DROP  2DUP  *BOUNDS*  *-ROT*  *TUCK*
+```
+Flow control:
+```
+    IF  ELSE  THEN  BEGIN  WHILE  REPEAT  AGAIN  UNTIL  DO  I  J  LOOP  EXECUTE  '
+```
+```
+    LEAVE  EXIT
 ```
 Number to string conversion:
 ```
     <#  #  #S  #>  HOLD  SIGN  .R  U.R  .  U.  BASE  HEX  DECIMAL
+```
+Definitions:
+```
+    :  ;  CONSTANT  VARIABLE  CREATE  DOES>
+```
+```
+    VALUE  TO
 ```
 Compiling:
 ``` 
     POSTPONE  IMMEDIATE  STATE  *[UNDEFINED]*  *[IF]*  *[THEN]*  *[*  *]*
 ```
 Memory:
+```
+    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CHAR+  CELLS  CHARS  CALLIGN  CALLIGNED  
+```
 ```
     HERE  CHERE  ALLOT  FILL  ROM!  *+!*  *CELLS*
 ```
@@ -42,13 +67,22 @@ Error recovery:
 ```
 Arithmetic:
 ```
-    UM*  UM/MOD  *ABS*  *ARSHIFT*
+    +  -  *  /  2*  2/  */MOD  MOD
 ```
-Comparision:
+```
+    UM*  UM/MOD  S>D  *ABS*  *ARSHIFT*
+```
+Comparision (Logic):
+```
+    0=  =  <  >  AND  OR  XOR  INVERT  TRUE  FALSE  LSHIFT  RSHIFT
+```
 ```
     U<  *0<*  *WITHIN*
 ```
-Miscellaneous:
+Miscellaneous (Tools):
 ```
-    LEAVE  VALUE  TO  S>D  EXIT  *MS*
+    (  \  .S
+```
+```
+    *MS*
 ```
