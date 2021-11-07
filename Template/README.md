@@ -24,17 +24,17 @@ Function: «name» ( input parameters -- results )
   Set «variable» to «description of value»
   «imperative subject object ...»
   
-  IF «condition»:
+  IF: «condition»:
      ...
   ELSE:
      ...
   
-  WHILE «condition»:
+  WHILE: «condition»:
      ...
 ```
 *For defining words use:*
 ```
-Function  
+Function:  
 	Define: ( u -- )
 		Reserve RAM space 
 		allocate ROM space 
@@ -44,8 +44,8 @@ Function
 
 ## Generic Forth implementation:
 
-*Try to implement the pseudo code using the words in [Generic Forth](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md) mentioning and explaining all additional words that
-your implementation requires*
+*Try to implement the pseudo code using the words in [Generic Forth](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md) and the words listed in the file [well-known-words](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/well-known-words.txt), 
+mentioning and explaining all other additional words that your implementation requires*.
 
 *Also show how your implementation is used by giving some examples.*
 
