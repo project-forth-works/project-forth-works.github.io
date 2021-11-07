@@ -15,7 +15,6 @@
 
 : WITHIN  ( x a b -- flag )            over - >r  - r> u< ; \ x-a u< b-a ?
 : <>      ( x1 x2 -- flag )            = 0= ;
-: <       ( x1 x2 -- flag )            swap  > ;
 : U>      ( u1 u2 -- flag )            swap  u< ;
 : CELLS   ( n1 -- n2 )                 0 cell+ * ;
 : CELL-   ( a1 -- a2 )                 0 cell+ - ;
@@ -23,7 +22,7 @@
 : 1-      ( n1 -- n2 )                 1 - ;
 
 : MIN     ( n1 n2 -- n3 )              2dup >  if  swap  then  drop ;  
-: MAX     ( n1 n2 -- n3 )              2dup >  if  drop exit then  swap drop ;
+: MAX     ( n1 n2 -- n3 )              2dup <  if  swap  then  drop ;
 : UMIN    ( n1 n2 -- n3 )              2dup u< if  drop exit then  swap drop ;  
 : UMAX    ( n1 n2 -- n3 )              2dup u< if  swap  then  drop ;
 : */      ( n1 n2 n3 -- n4 )           */mod swap drop ;
