@@ -8,7 +8,7 @@ Then open a terminal/command window, now select the work drive and directory for
 ```
 | What                                 | How                                                              |
 |--------------------------------------|------------------------------------------------------------------|
-| import new repository in current DIR | `git clone https://github.com/embeddingForth/embeddingForth.git` |
+| import new repository in current DIR | `git clone https://github.com/project-forth-works/project-forth-works.git` |
 | check for local repository changes   | `git status`                                                     |
 | update your local repository         | `git pull`                                                       |
 | add new file for next commit         | `git add "filename.ext"`                                         |

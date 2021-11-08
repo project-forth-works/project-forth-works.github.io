@@ -12,7 +12,7 @@ CELLS ALIGN @ , !
 
 ## Generic Forth (Bitter/Hoffmann/Hoekstra/Ouwerkerk)
 
-As we are working on this *EmbeddingForth* project, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension, we call this baby **Generic Forth**, as it is a Forth that most Forthers can easily understand.
+As we are working on this *Project Forth Works*, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension, we call this baby **Generic Forth**, as it is a Forth that most Forthers can easily understand.
 Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this **Generic Forth** word set of 42 words! With another 18 words in the waiting room :)  
 
 Now an overview of all the words from **Minimal Forth** & the word we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended.  

@@ -44,7 +44,7 @@ Function:
 
 ## Generic Forth implementation:
 
-Try to implement the pseudo code using the words in [Generic Forth](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md) and the words listed in the file [well-known-words](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/well-known-words.txt), 
+Try to implement the pseudo code using the words in [Generic Forth](https://github.com/project-forth-works/project-forth-works.github.io/blob/main/minimalforth.md) and the words listed in the file [well-known-words](https://github.com/project-forth-works/project-forth-works.github.io/blob/main/well-known-words.txt), 
 mentioning and explaining all other additional words that your implementation requires.  
 Hardware details may come to the surface, but minimise them!
 
@@ -64,4 +64,4 @@ What were stumbling blocks, what things are important for others to know?
 
 --- 
 
-For a simple example idea have a look at [The DUMP utility](https://github.com/embeddingforth/embeddingForth/tree/main/System-Software/dump).
+For a simple example idea have a look at [The DUMP utility](https://github.com/project-forth-works/project-forth-works/tree/main/System-Software/dump).

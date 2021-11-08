@@ -1,4 +1,4 @@
-# embeddingForth
+# Project Forth Works
 Embrace the Difference
 
-Please have a look at the [EmbeddingForth Project Homepage](https://embeddingForth.github.io).
+Please have a look at the [Project Forth Works Homepage](https://project-forth-works.github.io).
