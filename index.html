@@ -15,13 +15,16 @@ section, nav { padding:0.5em 1.5em 1em 1.5em; width:40em;
     border-left:0px solid #cf6; border-top:0px solid #9cc;
     border-right:3px solid #cf6; border-bottom:3px solid #cf6; }
 
-img { float:left; padding: 0 1em 0.5em 0;
+img { float:right; padding: 0 1em 0.5em 0;
     margin:0 0.5em 0.5em 0; xheight:7.7em; }
+
+<!-- img {float:right; margin:0 0 0.5em 0.5em; } -->
+
 
 .logo { height:9.8em; margin:0; padding:0; }
 
 h1 { font-weight:100; margin:0;
-    color:#9d2; font-size:400%;
+    color:#790; font-size:400%;
     text-align:center;  }
 h2 { font-weight:100; clear:left;
     color:#790; font-size:250%;
@@ -30,6 +33,7 @@ h3 { font-weight:100; color:#8a0; font-size:180%; text-align:center; }
 h4 { font-weight:100; color:#8a0; font-size:120%; text-align:left; }
 h5 { font-weight:100; color:#8a0; font-size:120%; text-align:center; }
 
+.v3 {height:3em; }
 .v5 {height:9.8em; }
 .v6 {height:10.8em; }
 .v7 {height:11.2em; }
@@ -44,13 +48,15 @@ a:link {
   color: #5A6;
   background-color: transparent;
   text-decoration: none; }
+<!--
 a:visited {
   color: #792;
   background-color: transparent;
   text-decoration: none; }
+-->
 a:hover {
   color: orange;
-  background-color: transparent;
+  background-color: #792;
   text-decoration: underline; }
 
 </style>
@@ -63,7 +69,9 @@ a:hover {
 <div class="nofloat"></div>
 
 <p>
-<h2>What this project is all about ...</h2>
+<h1>EmbeddingForth</h1>
+
+<h3>What this project is all about ...</h3>
 
 Forth would benefit greatly from an active community sharing sources and solutions. But our problem lies in the saying:  <b>'When you have seen one Forth, you have seen one Forth'</b>.
 With this project we would like to embrace our differences. And start sharing, despite having all the different Forths-dialects.
@@ -87,7 +95,7 @@ The project can also be a place to ask for help when you are stuck or stranded s
 If you want to participate, the two main things you can do are:
 
 <h4>1) Add code to an existing topic</h4>
-<img class="v7" src="./SPI1.jpg" alt="Embedding Forth"</img>
+<img class="v5" src="./circular buffer.jpg" alt="Embedding Forth"</img>
 Add something like a different implementation, to an already existing topic. This can be an alternative way of solving the problem. Or it can be a more specific implementation in a different dialect, or a solution for a different CPU.
 <br><br>
 A short description of the difference of a new implementation plus the source are all that is need. But you can add interesting facts if you like to do so. For instance benchmarks or maybe there are known limitations to your solution, maybe you know who invented your algorithm. Etcetra, etcetra. Lets learn and have fun!
@@ -118,7 +126,9 @@ in order to easily get a local copy of the existing ideas as well as to contribu
 in an uncomlicated way.
 We have put together <a href="https://github.com/embeddingforth/embeddingForth.github.io/blob/main/git-cheat-sheet.md">a simple guide</a> to the most important git commands.
 
-<br><br>Here <a href="https://embeddingForth.github.io/well-known-words.txt" target="_blank">implemention examples</a> of a selection of common used Forth words, that we did not (yet) selected for the Generic Forth word set.
+<!-- -->
+<br><br><img class="v3" src="niptuck.png" alt="niptuck"</img> 
+Here <a href="https://embeddingForth.github.io/well-known-words.txt" target="_blank">implemention examples</a> of a selection of common used Forth words, that we did not (yet) selected for the Generic Forth word set.
 
 </p>
 </section>
