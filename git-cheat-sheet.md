@@ -1,4 +1,4 @@
-# Git Cheat Sheet
+# Simple Git Guide
 
 ## Simple Git workflow for command window:
 
