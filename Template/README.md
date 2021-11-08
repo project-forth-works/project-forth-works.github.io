@@ -46,7 +46,7 @@ Function:
 
 Try to implement the pseudo code using the words in [Generic Forth](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/minimalforth.md) and the words listed in the file [well-known-words](https://github.com/embeddingforth/embeddingForth.github.io/blob/main/well-known-words.txt), 
 mentioning and explaining all other additional words that your implementation requires.  
-Hardware details may come to the surface, but minimise them
+Hardware details may come to the surface, but minimise them!
 
 *Also show how your implementation is used by giving some examples.*
 
@@ -59,10 +59,8 @@ Try to state precisely what implementations you present and what requirements th
 ## Background information and possible Pitfalls
 
 Please give references to data sheets, background articles or articles for follow up reading.
-
-Please also describe any problems that can occur related to the idea that you describe.  
-What were stumbling stones, what issues are important for others to know?
-
+Also describe any problems that may arise in connection with the idea you are describing.  
+What were stumbling blocks, what things are important for others to know?
 
 --- 
 
