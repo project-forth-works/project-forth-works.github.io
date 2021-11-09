@@ -4,9 +4,9 @@
  
 ```
 ALIGNED CELL+ CHAR+ ROT 2/ LSHIFT XOR OR > = 0= TRUE FALSE MOD 2* / * + VARIABLE CONSTANT DUP 
-WORDS INCLUDE bye \ .S ( CR KEY? EMIT KEY DOES> ; CREATE : EXECUTE J LOOP UNTIL AGAIN BEGIN ELSE ' I DO 
-REPEAT WHILE THEN IF R> OVER DROP R@ >R SWAP RSHIFT INVERT AND < - */MOD CHARS CALIGNED CALIGN C@ C, C! 
-CELLS ALIGN @ , ! 
+WORDS INCLUDE bye \ .S ( CR KEY? EMIT KEY DOES> ; CREATE : EXECUTE J LOOP UNTIL AGAIN BEGIN ELSE 
+' I DO REPEAT WHILE THEN IF R> OVER DROP R@ >R SWAP RSHIFT INVERT AND < - */MOD CHARS CALIGNED 
+CALIGN C@ C, C! CELLS ALIGN @ , ! 
 48 primitives, 69 words
 ```
 
@@ -15,7 +15,7 @@ CELLS ALIGN @ , !
 As we are working on this *Project Forth Works*, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension, we call this baby **Generic Forth**, as it is a Forth that most Forthers can easily understand.
 Words marked with stars like this `*MOVE*` are still under discussion, so only the words without stars are in this **Generic Forth** word set of 42 words! With another 19 words in the waiting room :)  
 
-Now an overview of all the words from **Minimal Forth** & the word we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended. Lines starting with a red dot ![#c53050](https://via.placeholder.com/15/c53050/000000?text=+) are word from minimal Forth, lines starting with a green dot ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) are Generic Forth words.
+Now an overview of all the words from **Minimal Forth** & the words we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended. Lines starting with a red dot ![#c53050](https://via.placeholder.com/15/c53050/000000?text=+) are words from Minimal Forth, lines starting with a green dot ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) are Generic Forth words.
 
 **String (Device):**  
 ![#c53050](https://via.placeholder.com/15/c53050/000000?text=+)
