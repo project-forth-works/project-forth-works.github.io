@@ -47,7 +47,7 @@ Now an overview of all the words from **Minimal Forth** & the word we have selec
 ![#c53050](https://via.placeholder.com/15/c53050/000000?text=+)
 `    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CHAR+  CELLS  CHARS  CALLIGN  CALLIGNED  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
-`    HERE  CHERE  ALLOT  FILL  ROM!  *+!*  *CELLS*  `  
+`    HERE  CHERE  ALLOT  FILL  ROM!  *+!*  `  
 **Error recovery:**  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 `    CATCH  THROW  ABORT"  *ABORT*  `  
