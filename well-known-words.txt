@@ -1,6 +1,8 @@
 ( Here is a list of well known Forth words and their implementations in "Generic Forth" )
 
 : BOUNDS  ( addr1 u -- addr2 addr1 )   over + swap ;
+: COUNT   ( addr1 -- addr2 x )         dup char+  swap c@ ;
+: C@+     ( addr1 -- addr2 x )         dup char+  swap c@ ; \ Pseudonym for COUNT
 : @+      ( addr1 -- addr2 x )         dup cell+  swap @ ;
 : TUCK    ( x1 x2 -- x2 x1  )          swap over ;
 : NIP     ( x1 x2 -- x2 )              swap drop ;
