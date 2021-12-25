@@ -66,6 +66,6 @@ Now an overview of all the words from **Minimal Forth** & the words we have sele
 `    WORD  PARSE  '  `  
 **Miscellaneous (Tools):**  
 ![#c53050](https://via.placeholder.com/15/c53050/000000?text=+)
-`    (  \  .S   `  
+`    (  \  .S  WORDS  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+)
 `    MS  EVALUATE  ACCEPT  FIND  QUIT  SOURCE  >NUMBER  >BODY  >IN  `  
