@@ -18,14 +18,11 @@ In this **Generic Forth** word set there are a total of 152 words!
 Now an overview of all the words we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended.
 
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **String (Device):**  
-`    KEY  EMIT  KEY?  CR  BL  SPACE  SPACES  S"  `  
-`    ."  CHAR  [CHAR]  CMOVE  MOVE  TYPE  `  
+`    KEY  EMIT  KEY?  CR  BL  SPACE  SPACES  S"  ."  CHAR  [CHAR]  CMOVE  MOVE  TYPE  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Stack:**  
-`    DUP  DROP  SWAP  OVER  ROT  >R  R>  R@  `  
-`    2DROP  2DUP  2OVER  2SWAP  DEPTH  `  
+`    DUP  DROP  SWAP  OVER  ROT  >R  R>  R@  2DROP  2DUP  2OVER  2SWAP  DEPTH  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Flow control:**  
-`    IF  ELSE  THEN  BEGIN  WHILE  REPEAT  AGAIN  UNTIL  DO  I  J  LOOP  EXECUTE  `  
-`    +LOOP  UNLOOP  LEAVE  EXIT  `  
+`    IF  ELSE  THEN  BEGIN  WHILE  REPEAT  AGAIN  UNTIL  DO  I  J  LOOP  EXECUTE  +LOOP  UNLOOP  LEAVE  EXIT  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Number to string conversion:**  
 `    <#  #  #S  #>  HOLD  SIGN  BASE  HEX  DECIMAL  .  U.  .R  U.R  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Definitions:**  
@@ -33,13 +30,11 @@ Now an overview of all the words we have selected to form **Generic Forth**, ple
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Compiling:**  
 `    POSTPONE  IMMEDIATE  STATE  RECURSE  [  ]  [']  [CHAR]  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Memory:**  
-`    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CHAR+  CELLS  CHARS  CALLIGN  CALLIGNED  `  
-`    2!  2@  ALLIGNED  HERE  CHERE  ALLOT  FILL  ROM!  +!  COUNT  FILL  `  
+`    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CHAR+  CELLS  CHARS  CALLIGN  CALLIGNED  2!  2@  ALLIGNED  HERE  CHERE  ALLOT  FILL  ROM!  +!  COUNT  FILL  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Error recovery:**  
 `    CATCH  THROW  ABORT"  ABORT  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Arithmetic:**  
-`    +  -  *  /  2*  2/  */MOD  MOD  UM*  UM/MOD  S>D  `  
-`    ABS  */  /MOD  1+  1-  FM/MOD  M*  MAX  MIN  NEGATE  FM/REM  `  
+`    +  -  *  /  2*  2/  */MOD  MOD  UM*  UM/MOD  S>D  ABS  */  /MOD  1+  1-  FM/MOD  M*  MAX  MIN  NEGATE  FM/REM  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Comparision (Logic):**  
 `    0=  =  <  >  AND  OR  XOR  INVERT  TRUE  FALSE  LSHIFT  RSHIFT  U<  0<  `  
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Parsing:**  
