@@ -31,3 +31,6 @@
 : ARSHIFT ( n1 +n -- n2 )              dup if  0 do  2/  loop  else  drop  then ;
 : [       ( -- )                       false state ! ; immediate
 : ]       ( -- )                       true state ! ;
+
+: .BYTE   ( byte -- )                  base @ >r  hex  0 <# # # #> type space  r> base ! ; \ Print 8-bits in hex
+: .HEX    ( u -- )                     base @ >r  hex  0 <# # # # # #> type space  r> base ! ; \ Print 16-bits in hex
