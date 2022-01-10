@@ -36,7 +36,7 @@ Now an overview of all the words we have selected to form **Generic Forth**, ple
 `    POSTPONE  IMMEDIATE  STATE  RECURSE  [  ]  [']  [CHAR]  `  
 
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Memory:**  
-`    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CHAR+  CELLS  CHARS  CALLIGN  CALLIGNED  2!  2@  ALLIGNED  HERE  CHERE  ALLOT  FILL  ROM!  +!  COUNT  FILL  `  
+`    !  C!  @  C@  ,  C,  ALLIGN  CELL+  CELLS  2!  2@  ALLIGNED  HERE  CHERE  ALLOT  FILL  ROM!  +!  COUNT  FILL  `  
 
 ![c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) **Error recovery:**  
 `    CATCH  THROW  ABORT"  ABORT  `  
