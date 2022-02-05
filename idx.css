@@ -1,0 +1,66 @@
+body {
+  background-color: #efd;
+}
+a, u {
+  text-decoration: none;
+  color: back;
+}
+a.toplevel {
+  display: none;
+}
+.toplevel-description {
+  display: none;
+}
+div.category {
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  text-indent: 0em;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+a.category {
+  font-weight: bold; 
+  font-size: 18px;
+}
+div.idea {
+  text-indent: 2em;
+}
+a.idea {
+  font-size: 14px;
+}
+.idea-description {
+  font-size:  14px;
+  color: green;
+}
+div.item {
+  text-indent: 4em;
+}
+a.item {
+  font-size: 12px;
+}
+.item-description {
+  font-size:  12px;
+  color: green;
+}
+div.item2 {
+  text-indent: 6em;
+}
+a.item2 {
+  font-size: 12px;
+}
+.item2-description {
+  font-size:  12px;
+  color: green;
+}
+div.item3 {
+  text-indent: 8em;
+}
+a.item3 {
+  font-size: 12px;
+}
+.item3-description {
+  font-size:  12px;
+  color: green;
+}
+
