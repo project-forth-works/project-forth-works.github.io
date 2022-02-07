@@ -1,9 +1,18 @@
+main{
+   background-color:#fff; color:#000;
+   margin:2em auto; padding:3em;
+   border-right:3px solid #cf6; 
+   border-bottom:3px solid #cf6; }
 body {
   background-color: #efd;
 }
-a, u {
-  text-decoration: none;
-  color: back;
+a, u { 
+   text-decoration: none;
+   color: black; 
+   padding:0 0.2em; 
+}
+a:hover { 
+   background-color: #cf6; 
 }
 a.toplevel {
   display: none;

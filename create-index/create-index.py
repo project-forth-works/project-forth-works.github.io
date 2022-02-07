@@ -134,7 +134,9 @@ def createIndex(f, entries):
   f.write("<link rel='stylesheet' href='idx.css'>\n")
   f.write("</head>\n")
   f.write("<body>\n")
+  f.write("<main>\n")
   writeEntries(f, entries)
+  f.write("</main>\n")
   f.write("</body>\n")
   f.write("</html>\n")
 
