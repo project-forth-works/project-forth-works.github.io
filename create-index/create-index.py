@@ -148,6 +148,6 @@ if __name__=="__main__":
   entries=list(scanReadMeFiles(readmeList))
 
   print(entries[0].path)
-  createIndex(open("idx.html","w"), entries)
+  createIndex(open("project-forth-works.github.io/idx.html","w"), entries)
 
   print("End")
