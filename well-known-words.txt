@@ -1,10 +1,10 @@
 ( Here is a list of well known Forth words and their implementations in "Generic Forth" )
 
 : BOUNDS  ( addr1 u -- addr2 addr1 )   over + swap ;
-: CHAR+   ( addr1 -- addr2 )           1 + ;  \ In this case a CHAR is a byte
+: CHAR+   ( addr1 -- addr2 )           1+ ;   \ In this case CHAR is a byte
 : CHARS   ( n1 -- n2 )                 ;      \ Here too!
-: COUNT   ( addr1 -- addr2 x )         dup 1 +  swap c@ ;
-: C@+     ( addr1 -- addr2 x )         dup 1 +  swap c@ ;  \ Pseudonym for COUNT
+: COUNT   ( addr1 -- addr2 x )         dup 1+  swap c@ ;
+: C@+     ( addr1 -- addr2 x )         dup 1+  swap c@ ;  \ Pseudonym for COUNT
 : @+      ( addr1 -- addr2 x )         dup cell+  swap @ ;
 : TUCK    ( x1 x2 -- x2 x1  )          swap over ;
 : NIP     ( x1 x2 -- x2 )              swap drop ;
