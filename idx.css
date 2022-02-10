@@ -1,14 +1,23 @@
 main{
+   width: 36em;
    background-color:#fff; color:#000;
    margin:2em auto; padding:3em; width:40em;
    border-right:3px solid #cf6; 
-   border-bottom:3px solid #cf6; }
-body { background-color:#efd; font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
-    font-size:100%; }
-h1 { font-weight:100; margin:0;
-    color:#790; font-size:300%;
-    text-align:center;  }
-a, u { 
+   border-bottom:3px solid #cf6; 
+}
+body { 
+  background-color:#efd; f
+  font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
+  font-size:100%; 
+}
+h1 { 
+  font-weight:100; 
+  margin:0;
+  color:#790; 
+  font-size:300%;
+  text-align:center;  
+}
+a, u {
    text-decoration: none;
    color: darkblue; 
    padding:0 0.2em; 
@@ -26,7 +35,7 @@ div.category {
   display: list-item;          /* This has to be "list-item"                                               */
   list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
   list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
-  text-indent: 0em;
+  padding-left: 2em;
   padding-top:10px;
   padding-bottom:10px;
 }
@@ -35,7 +44,7 @@ a.category {
   font-size: 18px;
 }
 div.idea {
-  text-indent: 2em;
+  padding-left: 2em;
 }
 a.idea {
   font-size: 14px;
@@ -45,7 +54,7 @@ a.idea {
   color: green;
 }
 div.item {
-  text-indent: 4em;
+  padding-left: 2em;
 }
 a.item {
   font-size: 12px;
@@ -55,7 +64,7 @@ a.item {
   color: green;
 }
 div.item2 {
-  text-indent: 6em;
+  padding-left: 2em;
 }
 a.item2 {
   font-size: 12px;
@@ -65,7 +74,7 @@ a.item2 {
   color: green;
 }
 div.item3 {
-  text-indent: 8em;
+  padding-left: 2em;
 }
 a.item3 {
   font-size: 12px;
