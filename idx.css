@@ -1,3 +1,8 @@
+body { 
+  background-color:#efd;
+  font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
+  font-size:100%; 
+}
 main{
    width: 36em;
    background-color:#fff; color:#000;
@@ -5,21 +10,15 @@ main{
    border-right:3px solid #cf6; 
    border-bottom:3px solid #cf6; 
 }
-body { 
-  background-color:#efd; f
-  font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
-  font-size:100%; 
-}
 h1 { 
   font-weight:100; 
-  margin:0;
-  color:#790; 
-  font-size:300%;
-  text-align:center;  
+  padding-left: 1em;
+  color:#790;
+  font-size: 250%;  
 }
-a, u {
+a {
    text-decoration: none;
-   color: #000; 
+   color: black; 
    padding:0 0.2em; 
 }
 a:hover { 
@@ -33,54 +32,53 @@ a.toplevel {
 }
 div.category {
   display: list-item;          /* This has to be "list-item"                                               */
-  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-type: none;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
   list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
   padding-left: 2em;
-  padding-top:10px;
   padding-bottom:10px;
 }
 a.category {
   font-weight: bold; 
-  font-size: 18px;
+  font-size: 120%;
+  line-height: 150%;
 }
 div.idea {
   padding-left: 2em;
 }
 a.idea {
-  font-size: 14px;
+  font-size: 100%;
 }
 .idea-description {
-  font-size:  14px;
+  font-size:  100%;
   color: green;
 }
 div.item {
   padding-left: 2em;
 }
 a.item {
-  font-size: 12px;
+  font-size: 90%;
 }
 .item-description {
-  font-size:  12px;
+  font-size:  90%;
   color: green;
 }
 div.item2 {
   padding-left: 2em;
 }
 a.item2 {
-  font-size: 12px;
+  font-size: 90%;
 }
 .item2-description {
-  font-size:  12px;
+  font-size:  90%;
   color: green;
 }
 div.item3 {
   padding-left: 2em;
 }
 a.item3 {
-  font-size: 12px;
+  font-size: 90%;
 }
 .item3-description {
-  font-size:  12px;
+  font-size:  90%;
   color: green;
 }
-
