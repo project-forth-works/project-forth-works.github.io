@@ -4,7 +4,7 @@ body {
   font-size:100%; 
 }
 main{
-   width: 36em;
+   width: 40em;
    background-color:#fff; color:#000;
    margin:2em auto; padding:3em; width:40em;
    border-right:3px solid #cf6; 
@@ -12,7 +12,7 @@ main{
 }
 h1 { 
   font-weight:100; 
-  color:#790;
+  color: #680;
   font-size: 250%;  
 }
 a {
@@ -52,7 +52,7 @@ a.idea {
 }
 .idea-description {
   font-size:  95%;
-  color: green;
+  color: #680;
 }
 div.item {
   padding-left: 2em;
@@ -62,7 +62,7 @@ a.item {
 }
 .item-description {
   font-size:  90%;
-  color: green;
+  color: #680;
 }
 div.item2 {
   padding-left: 2em;
@@ -72,7 +72,7 @@ a.item2 {
 }
 .item2-description {
   font-size:  90%;
-  color: green;
+  color: #680;
 }
 div.item3 {
   padding-left: 2em;
@@ -82,5 +82,5 @@ a.item3 {
 }
 .item3-description {
   font-size:  90%;
-  color: green;
+  color: #680;
 }
