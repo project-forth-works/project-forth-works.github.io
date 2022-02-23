@@ -5,14 +5,13 @@ body {
 }
 main{
    width: 40em;
-   background-color:#fff; color:#000;
-   margin:2em auto; padding:3em; width:40em;
+   background-color: #fff; color: #333;
+   margin:2em auto; padding:3em;
    border-right:3px solid #cf6; 
    border-bottom:3px solid #cf6; 
 }
 h1 { 
   font-weight:100; 
-  color: #680;
   font-size: 250%;  
 }
 a {
