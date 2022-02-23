@@ -17,7 +17,7 @@ h1 {
 }
 a {
    text-decoration: none;
-   color: black; 
+   color: #333; 
    padding:0 0.2em; 
 }
 a:hover { 
@@ -40,6 +40,10 @@ a.category {
   font-size: 120%;
   line-height: 150%;
 }
+.category-description {
+  font-size: 107%;
+  color: orange;
+}
 div.idea {
   padding-left: 2em;
 }
@@ -47,14 +51,14 @@ a.idea {
   font-size: 100%;
 }
 .idea-description {
-  font-size:  100%;
+  font-size:  95%;
   color: green;
 }
 div.item {
   padding-left: 2em;
 }
 a.item {
-  font-size: 90%;
+  font-size: 95%;
 }
 .item-description {
   font-size:  90%;
@@ -64,7 +68,7 @@ div.item2 {
   padding-left: 2em;
 }
 a.item2 {
-  font-size: 90%;
+  font-size: 95%;
 }
 .item2-description {
   font-size:  90%;
@@ -74,7 +78,7 @@ div.item3 {
   padding-left: 2em;
 }
 a.item3 {
-  font-size: 90%;
+  font-size: 95%;
 }
 .item3-description {
   font-size:  90%;
