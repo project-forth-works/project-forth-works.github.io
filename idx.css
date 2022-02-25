@@ -4,19 +4,20 @@ body {
   font-size:100%; 
 }
 main{
-   width: 46em;
-   background-color: #fff; color: #333;
+   width: 42em;
+   background-color: #fff; color: #000;
    margin:2em auto; padding:3em;
    border-right:3px solid #cf6; 
    border-bottom:3px solid #cf6; 
 }
-h1 { 
+h1 a {
   font-weight:100; 
+  color: #790;
   font-size: 250%;  
 }
 a {
    text-decoration: none;
-   color: #333; 
+   color: #000; 
    padding:0 0.2em; 
 }
 a:hover { 
@@ -41,7 +42,7 @@ a.category {
 }
 .category-description {
   font-size: 110%;
-  color: orange;
+  color: #555;
 }
 div.idea {
   padding-left: 1.5em;
@@ -50,7 +51,7 @@ a.idea {
   font-size: 110%;
 }
 .idea-description {
-  font-size:  99%;
+  font-size:  100%;
   color: #680;
 }
 div.item {
@@ -60,7 +61,7 @@ a.item {
   font-size: 110%;
 }
 .item-description {
-  font-size:  99%;
+  font-size:  100%;
   color: #680;
 }
 div.item2 {
@@ -70,7 +71,7 @@ a.item2 {
   font-size: 110%;
 }
 .item2-description {
-  font-size:  99%;
+  font-size:  100%;
   color: #680;
 }
 div.item3 {
@@ -80,6 +81,6 @@ a.item3 {
   font-size: 110%;
 }
 .item3-description {
-  font-size:  99%;
+  font-size:  100%;
   color: #680;
 }
