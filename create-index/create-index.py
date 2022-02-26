@@ -134,7 +134,7 @@ def createIndex(f, entries):
   f.write("</head>\n")
   f.write("<body>\n")
   f.write("<main>\n")
-  f.write("<h1><a href='https://github.com/project-forth-works/project-forth-works'>Project Forth Works Index</a></h1>")
+  f.write("<h1><a href='https://github.com/project-forth-works/project-forth-works'>Project Forth Works</a> Index</h1>")
   writeEntries(f, entries)
   f.write("</main>\n")
   f.write("</body>\n")
