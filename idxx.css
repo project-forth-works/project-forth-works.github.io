@@ -1,0 +1,86 @@
+body { 
+  background-color:#efd;
+  font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
+  font-size:100%; 
+}
+main{
+   width: 42em;
+   background-color: #fff; color: #000;
+   margin:2em auto; padding:3em;
+   border-right:3px solid #cf6; 
+   border-bottom:3px solid #cf6; 
+}
+h1 a {
+  font-weight:100; 
+  color: #790;
+  font-size: 150%;  
+}
+a {
+   text-decoration: none;
+   color: #000; 
+   padding:0 0.2em; 
+}
+a:hover { 
+   background-color: #cf6; 
+}
+a.toplevel {
+  display: none;
+}
+.toplevel-description {
+  display: none;
+}
+div.category {
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: none;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  padding-bottom:10px;
+}
+a.category {
+  font-weight: bold; 
+  font-size: 120%;
+  line-height: 150%;
+}
+.category-description {
+  font-size: 110%;
+  color: #444;
+}
+div.idea {
+  padding-left: 1.5em;
+}
+a.idea {
+  font-size: 110%;
+}
+.idea-description {
+  font-size:  100%;
+  color: #680;
+}
+div.item {
+  padding-left: 1.5em;
+}
+a.item {
+  font-size: 110%;
+}
+.item-description {
+  font-size:  100%;
+  color: #680;
+}
+div.item2 {
+  padding-left: 1.5em;
+}
+a.item2 {
+  font-size: 110%;
+}
+.item2-description {
+  font-size:  100%;
+  color: #680;
+}
+div.item3 {
+  padding-left: 1.5em;
+}
+a.item3 {
+  font-size: 110%;
+}
+.item3-description {
+  font-size:  100%;
+  color: #680;
+}
