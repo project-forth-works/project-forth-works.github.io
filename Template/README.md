@@ -53,7 +53,7 @@ Hardware details may come to the surface, but minimise them!
 
 ## Various other Implementations
 
-Present additional (possibly more sophisticated) implementations, e.g for a specific microcontroller boards, a specific Forth system or in Standard Forth.
+Present additional (possibly more sophisticated) implementations, e.g for a specific microcontroller board, a specific Forth system or in Standard Forth.
 Try to state precisely what implementations you present and what requirements they have. No need to be portable here: *Embrace the difference*
 
 ## Background information and possible Pitfalls
