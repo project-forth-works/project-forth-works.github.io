@@ -1,5 +1,6 @@
 ( Here is a list of well known Forth words and their implementations in "Generic Forth" )
 
+hex
 : BOUNDS  ( addr1 u -- addr2 addr1 )   over + swap ;
 : CHAR+   ( addr1 -- addr2 )           1+ ;   \ In this case CHAR is a byte
 : CHARS   ( n1 -- n2 )                 ;      \ Here too!
@@ -36,3 +37,5 @@
 
 : .BYTE   ( byte -- )                  base @ >r  hex  0 <# # # #> type space  r> base ! ; \ Print 8-bits in hex
 : .HEX    ( u -- )                     base @ >r  hex  0 <# # # # # #> type space  r> base ! ; \ Print 16-bits in hex
+: UPC     ( ch1 -- ch2 )               dup [char] a [char] z 1+ within if  DF and  then ;
+
