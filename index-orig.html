@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <link  id="favicon" rel="shortcut icon" href="./favicon.ico">
+  <title>Project Forth Works</title>
+  <meta name="keywords" 
+    content="Forth, Open source, Forth example code, Data structures, Communication protocols, system software, PFW, Embrace the difference">
+  <meta name="description" content="Share ideas & solutions with sofware examples written in Forth">
+<style>
+body { background-color:#efd; font-family: "optima", "Lucida Grande", "Helvetica", "Arial",  sans-serif;
+    font-size:120%; }
+
+section { padding:3em; width:40em;
+    background-color:#fff; color:#000;
+    margin:2em auto;
+    border-right:3px solid #cf6; border-bottom:3px solid #cf6; }
+
+img { float:right; margin: 0.5em; width:100%; }
+
+h1 { font-weight:100; margin:0;
+    color:#790; font-size:300%;
+    text-align:center;  }
+h3 { font-weight:100; color:#8a0; font-size:180%; text-align:center; }
+h4 { font-weight:100; color:#8a0; font-size:120%; text-align:left; margin-top: 0; }
+
+.w45 {width:45%; }
+.w40 {width:40%; }
+.w55 {width:55%; }
+
+.opv { background-color:#eee; padding:1em; }
+
+a { color: orange; padding:0 0.2em; text-decoration:none }
+a:hover { background-color: #cf6; }
+
+</style>
+
+<body>
+<section>
+
+<img  src="./PFW-header.jpg" alt="Project Forth Works Header">
+
+<h1>Project Forth Works</h1>
+
+<h3>What this project is all about ...</h3>
+
+Forth would benefit greatly from an active community sharing sources and solutions. But our problem lies in the saying:  <b>'When you have seen one Forth, you have seen one Forth'</b>.
+With this project we would like to embrace our differences and start sharing, despite having all the different Forths-dialects.
+
+<br><br>
+<b>Visit the <a href="https://github.com/project-forth-works/project-forth-works" target="_blank">Project Forth Works</a> at Github</b> or use the 
+<a href="https://project-forth-works.github.io/idx.html" target="_blank">list of subjects</a>.
+
+<h3>Core idea</h3>
+<img class="w40" src="./EmF1c.jpg" alt="Project Forth Works">
+The core idea of this project is to use a simple, generic version of Forth to spread, algorithms, protocols, applications and hardware drivers. This generic version of Forth guarantees that it can be understood and used by (almost) everybody in the Forth-community.
+<br><br>
+In addition other implementations can be added in any dialect/version/standard of Forth, and covering any CPU. Having multiple solutions in different dialects of Forth is really seen as a benefit in this project!
+
+<h3>Structure</h3>
+<img class="w40" src="./EmF2b.jpg" alt="Project Forth Works">
+Without some structure this project is doomed to fail. That is why a standard structure for each topic is envisioned. The intention is to start with a description of an idea, algorithm or problem being solved, use pseudo-code to clarify when and where needed, and add an example implementation in <a href="https://github.com/project-forth-works/project-forth-works.github.io/blob/main/minimalforth.md" target="_blank">Generic Forth</a> (see below). Links to more detailed information, a description of any pitfalls encountered, etc. are also very welcome.
+<br>
+And we're really serious in embracing the differences. The example in the generic Forth is always the starting point, but examples in any Forth dialect and for any other CPU can be added to the original idea. The more, the better. And different solutions for the same problem are also very welcome.
+ 
+<br><br>
+The project can also be a place to ask for help when you are stuck or stranded somewhere. Say you have trouble interfacing to a certain periferal. The project could already contain a solution. Or help you find somebody who has a solution. Or help you find somebody with whom you could partner up to try to find a solution together.
+
+<h3>Participate</h3>
+If you want to participate, the two main things you can do are:
+
+<br><br>
+
+<div class="opv">
+<h4>&#9670; Add code to an existing topic</h4>
+
+Add something like a different implementation, to an already existing topic. This can be an alternative way of solving the problem. Or it can be a more specific implementation in a different dialect, or a solution for a different CPU.
+<br><br>
+A short description of the difference of a new implementation plus the source are all that is needed. But you can add interesting facts if you like to do so. 
+For instance benchmarks or maybe there are known limitations to your solution, maybe you know who invented your algorithm. 
+Etcetra, etcetra. Lets learn and have fun!
+</div>
+
+<br>
+<div class="opv">
+<h4>&#9670; Initiate a new topic</h4>
+
+You can initiate a new topic. Upload any project or algorithm worth sharing in the appropriate category, and describe it as detailed as is useful. How to do that is explained below.
+</div>
+
+<br>
+<h3>How to describe an new topic?</h3>
+
+<ol>
+<li>Describe the problem that is solved</li>
+<li>Give some possible usage examples (if not self evident)</li>
+<li>Give a detailed description of the algorithm solving the problem</li>
+<li>Then a more logical decription in pseudo code</li>
+<li>Add a <b>Generic Forth</b> code example, with the focus on clarity rather than efficiency or aesthetics</li>
+<li>Add any background documention and decribe encountered pitfalls etc.</li>
+<li>Add an implementation (or more than one) in your preferred Forth dialect/CPU</li>
+<li>When it is an unfinished project, also describe as much as is possible of the problem(s) you encountered</li>
+</ol>
+
+To make it more concrete,  <a href="https://github.com/project-forth-works/project-forth-works.github.io/tree/main/Template" target="_blank">on the template page</a> there is a detailed example of how we believe a topic should be worked out and published.
+
+<br><br>
+You need some <a href="https://git-scm.com/" target="_blank">basic knowledge of <b>git</b></a>
+in order to easily get a local copy of the existing ideas as well as to contribute
+in an uncomplicated way. 
+<br> 
+We have put together <a href="https://github.com/project-forth-works/project-forth-works.github.io/blob/main/git-simple-guide.md">a simple guide</a> to the most important git commands.
+
+<br><br><img class="w45" src="niptuck.png" alt="niptuck"> 
+See <a href="https://project-forth-works.github.io/well-known-words.txt" target="_blank">implemention examples</a> of some frequently used Forth words, that we did not (yet) select for the Generic Forth word set.
+
+</section>
+</body>
+</html>
