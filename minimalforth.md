@@ -12,7 +12,7 @@ CALIGN C@ C, C! CELLS ALIGN @ , !
 
 ## Generic Forth (Bitter/Hoffmann/Hoekstra/Ouwerkerk/Nijhof)
 
-As we are working on this *Project Forth Works*, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension based mainly on the [core wordset](http://forth.sourceforge.net/std/dpans/dpans6.htm) of [dpANS94](http://www.openfirmware.info/data/docs/dpans94.pdf). We call this baby **Generic Forth**, as it is a Forth that most Forthers and Forth systems can easily understand.
+As we are working on this *Project Forth Works*, we became aware that Minimal Forth is just too minimal to provide even simple examples. So we defined a prototype of a word set extension based mainly on the [core wordset](https://www.taygeta.com/forth/dpans6.htm#6.1) of [dpANS94](http://www.openfirmware.info/data/docs/dpans94.pdf). We call this baby **Generic Forth**, as it is a Forth that most Forthers and Forth systems can easily understand.
 In this **Generic Forth** word set there are a total of 152 words!
 
 Now an overview of all the words we have selected to form **Generic Forth**, please note it is a living list. With good arguments it can be extended.
